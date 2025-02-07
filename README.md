@@ -15,5 +15,5 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository**:
 
-   
+   https://github.com/RithwikaNagula/FarmTech.git
    Start the Development Server:  npm run dev
