@@ -1,0 +1,32 @@
+.email-form-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .email-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+  }
+  
+  .email-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .email-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .email-button:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,29 @@
+{
+  "name": "mern-blood-bank-app",
+  "version": "1.0.0",
+  "description": "mern blood bank app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "shanmukhi",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "concurrently": "^8.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.7",
+    "react-bootstrap": "^2.10.4",
+    "react-toastify": "^10.0.5"
+  }
+}
